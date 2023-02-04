@@ -105,6 +105,49 @@ li {
 
 /* !=== START HEADER/NAV CSS ===! */
 
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--secondary);
+  color: #EEEEEE;
+  padding-bottom: 10px;
+}
+
+.hero-div {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+}
+
+.hero-nav {
+  padding-top: 10px;
+}
+
+.hero-nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 24px;
+  padding-left: 40px;
+  color: var(--white);
+  text-shadow: 1px 1px var(--black);
+}
+
+a nav-link:hover {
+  color: var(--third);
+  text-shadow: 1px 1px var(--white);
+}
+
+.hero-text {
+  font-size: 40px;
+  text-shadow: 2px 2px var(--primary);
+  color: var(--black);
+  margin-top: 23px;
+}
+
 .nav-link-active {
   background-color: var(--black);
   color: var(--primary);
