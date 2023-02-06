@@ -10,7 +10,7 @@ const Featured = () => {
       <div className="flex-column project-cont-1">
         <h2 className="featured-title">Featured Projects</h2>
         <h4 className="f-proj-title">Live Wire</h4>
-        <div className="flex-row justify-space-around proj-info-cont-2">
+        <div className="justify-space-around proj-info-cont-2">
           <img
             src={liveWireImg}
             className="port-img"

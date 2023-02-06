@@ -230,40 +230,62 @@ a nav-link:hover {
 /* !=== START FEATURED CSS ===! */
 
 .f-cont {
-  width: 85%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .featured-title {
+  text-align: center;
   margin-top: 30px;
   margin-bottom: 15px;
-  align-self: center;
   text-decoration: underline;
   text-decoration-color: var(--third);
   text-shadow: 2px 2px 2px var(--secondary);
 }
 
-.f-proj-title {
+.f-proj-title, .f-proj-title-2 {
   margin-top: 15px;
   margin-bottom: 23px;
-  align-self: center;
+  text-align: center;
   text-decoration: underline;
   text-decoration-color: var(--third);
   text-shadow: 2px 2px 2px var(--secondary);
 }
 
 .f-proj-title-2 {
-  margin-top: 15px;
-  margin-bottom: 23px;
-  align-self: center;
-  text-decoration: underline;
   text-decoration-color: var(--fourth);
   text-shadow: 2px 2px 2px var(--primary);
 }
 
-.f-proj-desc {
-  width: 50%;
-  margin-top: 55px;
-}
+.port-img {
+    height: 150px;
+    width: 40%;
+    margin: 10px;
+  }
+
+  .f-proj-desc {
+    width: 55%;
+    align-self: center;
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+.proj-info-cont {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  .proj-info-cont-2, .proj-info-cont {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
 .proj-link-text, .proj-link-text-2 {
   text-shadow: 1px 1px 1px var(--secondary);
@@ -284,6 +306,31 @@ a nav-link:hover {
 .link-container {
   margin-top: 10px;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+} 
+
+.projects-head{
+  font-size: 35px;
+  color: #EEEEEE;
+  padding-top: 2%;
+  text-decoration: underline;
+  text-decoration-color: #0F044C;
+}
+
+.project-cont-1, .project-cont-2 {
+      border-radius: 25px;
+}
+.project-cont-2 {
+  background-color: var(--secondary);
+}
+
+.project h4 {
+  color: #0F044C;
+  text-decoration: underline;
+  text-decoration-color: var(--fourth);
+  font-size: 23px;
+  text-shadow: 2px 2px #000000;
 }
 
 /* !=== END FEATURED CSS ===! */
@@ -476,16 +523,26 @@ a nav-link:hover {
   }
 
   .port-img {
+    align-self: center;
     height: 150px;
     width: 300px;
+  }
+
+  .proj-info-cont-2, .proj-info-cont {
+    flex-direction: column;
   }
 
   .message-area {
     width: 300px;
   }
 
+  .f-cont {
+    margin: 0;
+  }
+
   .f-proj-desc {
     width: 95%;
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -505,11 +562,11 @@ a nav-link:hover {
   }
   
   .project-cont-1 {
-    width: 100%;
+    width: 90%;
   }
 
   .project-cont-2 {
-    width: 100%;
+    width: 90%;
   }
 
   .proj-link-text-2 {
@@ -528,12 +585,15 @@ a nav-link:hover {
     text-align: center;
   }
 
+  .about-me-cont {
+    margin: 0;
+    width: 100%;
+  }
+
   .bio-cont {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: auto;
-    margin-left: 9px;
   }
 
   .vincent-info-container {
