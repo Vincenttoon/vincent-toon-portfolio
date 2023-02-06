@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Technologies from "./pages/Technologies";
 import Resume from "./pages/Resume";
+import Contact from './pages/Contact';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
             <Route path="/portfolio" element={<Portfolio />}/>
             <Route path="/technologies" element={<Technologies />}/>
             <Route path="/resume" element={<Resume />}/>
+            <Route path="/contact" element={<Contact />}/>
           </Routes>
         </div>
         <FooterComponent />
