@@ -33,13 +33,12 @@ code {
     monospace;
 }
 
-body {
+/* body {
   display: flex;
   flex: 1;
-}
+} */
 
-html,
-body {
+html {
   min-height: 100%;
 }
 
@@ -357,6 +356,58 @@ a nav-link:hover {
 
 /* !=== END PORTFOLIO PAGES CSS ===! */
 
+/* !=== START TECHNOLOGIES CSS ===! */
+
+.tech-cont {
+  width: 85%;
+  background-color: var(--secondary);
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+
+.card-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.tech-card {
+  margin: 15px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary);
+  border-radius: 25px;
+}
+
+.tech-head {
+  text-align: center;
+  margin: 10px;
+  text-decoration: underline;
+  text-decoration-color: var(--fourth);
+}
+
+.ul-class {
+  flex-direction: column;
+  margin-left: -25px;
+}
+
+.language-cont {
+  margin: auto;
+  margin-top: -10px;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.tech-logo {
+  color: var(--third);
+  margin-left: 10px;
+}
+/* !=== END TECHNOLOGIES CSS ===! */
+
 /* !=== START FOOTER CSS ===! */
 
 .footer-div {
@@ -487,6 +538,11 @@ a nav-link:hover {
     width: 100%;
     flex-wrap: wrap;
   }
+
+  .tech-card {
+    width: 45%;
+  }
+  
 }
 
 @media screen and (max-width: 850) {
@@ -505,6 +561,7 @@ a nav-link:hover {
   .vincent-info-container {
     width: 60%;
   }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -615,6 +672,10 @@ a nav-link:hover {
 
   .my-photo {
     display: none;
+  }
+
+  .tech-card {
+    width: 90%;
   }
 }
 
