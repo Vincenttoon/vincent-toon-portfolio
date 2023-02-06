@@ -112,6 +112,8 @@ li {
   background-color: var(--secondary);
   color: #EEEEEE;
   padding-bottom: 10px;
+  border-bottom: solid;
+  border-color: var(--black);
 }
 
 .hero-div {
@@ -408,6 +410,123 @@ a nav-link:hover {
 }
 /* !=== END TECHNOLOGIES CSS ===! */
 
+/* !=== START RESUME CSS ===! */
+
+.resume-cont {
+  width: 85%;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.special-head::after, .special-head-2::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 6em;
+  background: var(--third);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.single-head-1::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 19em;
+  background: var(--fourth);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.single-head-2::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 29em;
+  background: var(--fourth);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.single-head-3::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 20em;
+  background: var(--fourth);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.single-head-4::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 23em;
+  background: var(--fourth);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.single-head-5::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 17em;
+  background: var(--fourth);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.date-attended::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 15.5em;
+  background: var(--black);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.date-attended-2::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 14em;
+  background: var(--black);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.date-attended-3::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 11em;
+  background: var(--black);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.date-attended-4::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 14.5em;
+  background: var(--black);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.date-attended-5::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 14.5em;
+  background: var(--black);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
 /* !=== START FOOTER CSS ===! */
 
 .footer-div {
@@ -419,6 +538,9 @@ a nav-link:hover {
   width: 100%;
   color: var(--black);
   background-color: var(--secondary);
+  border-top: solid;
+  border-bottom: solid;
+  border-color: var(--black);
 }
 
 .icon-list ul {
@@ -677,6 +799,27 @@ a nav-link:hover {
   .tech-card {
     width: 90%;
   }
+
+  .single-head-1::after, .single-head-2::after, .single-head-3::after, .single-head-4::after, .single-head-5::after {
+    width:12em;
+  }
+    
+  .date-attended::after {
+    width: 14.5em;
+  }
+  
+  .date-attended-2::after {
+    width: 13em;
+  }
+
+  .date-attended-3::after {
+    width: 10.5em;
+  }
+  
+  .date-attended-4::after {
+    width: 13.5em;
+  }
+  
 }
 
 /* === END ORIGINAL MQ === */
