@@ -117,21 +117,33 @@ li {
 
 .hero-div {
   display: flex;
-  width: 33%;
+  width: 25%;
   justify-content: center;
 }
 
-.hero-nav {
+.hero-nav, .right-links {
   padding-top: 10px;
+  width: 33%;
 }
 
-.hero-nav ul {
+.hero-nav, ul {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  width: 50%;
+  justify-content: center;
   flex-direction: row;
   font-size: 24px;
   padding-left: 40px;
+  color: var(--white);
+  text-shadow: 1px 1px var(--black);
+}
+
+.right-links {
+  display: flex;
+  width: 25%;
+  text-align: center;
+  font-size: 24px;
+  justify-content: space-around;
+  padding-top: 33px;
   color: var(--white);
   text-shadow: 1px 1px var(--black);
 }

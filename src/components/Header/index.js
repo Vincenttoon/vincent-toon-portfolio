@@ -1,10 +1,9 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 // import { useMediaQuery } from "@mui/material";
 // import DropdownMenu from "../MobileNav";
 
 function Header(props) {
-
   // const isMobile = useMediaQuery('(max-width: 810px)');
 
   return (
@@ -17,19 +16,21 @@ function Header(props) {
         <nav className="hero-nav">
           <ul className="nav-link">
             <li>
-                <NavLink to='/'>About</NavLink>
+              <NavLink to="/">About</NavLink>
             </li>
             <li>
-                <NavLink to='/portfolio'>Portfolio</NavLink>
+              <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
             <li>
-                <NavLink to='/technologies'>Technologies</NavLink>
+              <NavLink to="/technologies">Technologies</NavLink>
+            </li>
+            <li>
+              <NavLink to="/resume">Resume</NavLink>
             </li>
           </ul>
         </nav>
         <div className="right-links">
-            <NavLink to='/resume'>Resume</NavLink>
-            <NavLink to='/contact'>Contact</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </div>
       </header>
     </div>
