@@ -762,6 +762,24 @@ form label {
 
 /* !=== END FOOTER DIV ===! */
 
+/* !=== START MOBILE NAV ===! */
+
+.mobile-nav-link{
+  text-decoration: none;
+  color: #000;
+}
+
+.mobile-nav-link:hover {
+  background-color: #C2BFA7;
+}
+
+.mobile-div {
+  margin-top: 33px;
+  margin-right: 5px;
+}
+
+/* !=== END MOBILE NAV ===! */
+
 
 
 /* === START ORIGINAL MQ === */
@@ -894,16 +912,55 @@ form label {
     width: 100%;
   }
 
+  .mobile-div {
+    padding: 0;
+  }
+
+  .hero-nav {
+    display: none;
+  }
+
+  .right-links {
+    display: none;
+  }
+
+  .hero-div {
+    width: 50%;
+  }
+
+  .hero-text {
+    font-size: 2em;
+  }
+
+  .mobile-nav-link {
+    margin-top: 50px;
+    display: block;
+    padding: 0;
+  }
+  
+
   .hero-nav ul {
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    color: var(--black);
   }
 
   .hero-nav ul li {
     margin-bottom: 5px;
     margin-right: 10px;
   }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    max-height: 200px;
+    color: var(--black);
+    text-shadow: none;
+  }
+  
   
   .txt-div {
     flex-direction: column;
