@@ -161,6 +161,10 @@ a nav-link:hover {
   margin-top: 23px;
 }
 
+.hero-text:hover {
+  color: var(--fourth);
+}
+
 .nav-link-active {
   background-color: var(--black);
   color: var(--primary);
@@ -906,10 +910,6 @@ textarea {
     width: 180%;
     font-size: 28px;
     margin-top: 44px;
-  }
-
-  .hero-text:hover {
-    color: #872C27;
   }
 
   .info-name::after {
