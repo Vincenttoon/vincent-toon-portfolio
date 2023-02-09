@@ -1194,6 +1194,10 @@ textarea {
   textarea {
     height: 125px;
   }
+
+  .mobile-nav-link {
+    margin-top: 0;
+  }
   
 }
 
