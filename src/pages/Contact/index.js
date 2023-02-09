@@ -1,6 +1,8 @@
 import { React, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
+import vinnyGuitars from '../../assets/portfolio_img/guitar_me.jpg'
+
 import CheckIcon from "@mui/icons-material/Check";
 import ErrorOutlineIcon from "@mui/icons-material/ErrorOutline";
 
@@ -50,9 +52,9 @@ const Contact = () => {
 
   return (
     <div className="form-container">
-      <div className="form-img-container">
-        {/* <img src={JakeStudio} alt="Jake Wilson using the printing press"></img> */}
-      </div>
+      {/* <div className="form-img-container">
+        <img src={vinnyGuitars} className="vinny-guitar" alt="Vincent absolutely shredding on guitar"></img>
+      </div> */}
       <div className="email-form">
         <h4 className="contact-title"> Contact Vincent Toon </h4>
         <form
@@ -80,6 +82,9 @@ const Contact = () => {
             <CheckIcon className="email-checkmark" /> Email sent!
           </div>
         )}
+      </div>
+      <div className="form-img-container">
+        <img src={vinnyGuitars} className="vinny-guitar" alt="Vincent absolutely shredding on guitar"></img>
       </div>
     </div>
   );
