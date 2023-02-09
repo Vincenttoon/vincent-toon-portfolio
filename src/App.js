@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import Featured from './components/Featured_Projects';
 import Personal from "./components/Personal_Projects";
 import Challenges from './components/WashU_Projects';
+import Async from './components/WashU_Async';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
             <Route path="/featured" element={<Featured />}/>
             <Route path="/personal-projects" element={<Personal/>}/>
             <Route path="/challenges" element={<Challenges/>}/>
+            <Route path="/async" element={<Async/>}/>
           </Routes>
         </div>
         <FooterComponent />

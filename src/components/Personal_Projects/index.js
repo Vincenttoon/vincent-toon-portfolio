@@ -13,7 +13,7 @@ const Personal = () => {
           <img
             src={weatherImg}
             className="port-img-link"
-            alt="live wire home screen"
+            alt="Sun and cloud"
           />
           <p className="f-proj-desc mt-5">
             A new attempt at a basic weather application. The weather app

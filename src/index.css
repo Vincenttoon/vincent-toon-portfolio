@@ -280,7 +280,7 @@ a nav-link:hover {
     margin: 10px;
   }
 
-  .f-proj-desc {
+  .f-proj-desc, .f-proj-desc-2 {
     width: 55%;
     align-self: center;
     margin-left: 15px;

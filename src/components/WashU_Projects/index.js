@@ -22,10 +22,10 @@ const Challenges = () => {
             <img
               src={readmeImg}
               className="port-img-link"
-              alt="book worm saved screen"
+              alt="output from readme generator"
             />
           </a>
-          <p className="f-proj-desc mt-5">
+          <p className="f-proj-desc-2 mt-5">
             Read Me generator to help produce professional Readme's. CLI
             Application that uses inquirer to ask user a list of questions and
             take that information to produce desired Readme.
@@ -43,7 +43,7 @@ const Challenges = () => {
               alt="book worm saved screen"
             />
           </a>
-          <p className="f-proj-desc mt-5">
+          <p className="f-proj-desc-2 mt-5">
             MERN Stack application where users can search for books using Google
             Books API. User's can save book's on their reading list for later
             viewing.
@@ -58,10 +58,10 @@ const Challenges = () => {
             <img
               src={oldPortImg}
               className="port-img-link"
-              alt="book worm saved screen"
+              alt="old portfolio landing page"
             />
           </a>
-          <p className="f-proj-desc mt-5">
+          <p className="f-proj-desc-2 mt-5">
             Original React portfolio. This project was a time crunch, and I
             didn't like the method I used. Was a nightmare to refactor, hence
             this current portfolio.
@@ -76,10 +76,10 @@ const Challenges = () => {
             <img
               src={jateImg}
               className="port-img-link"
-              alt="book worm saved screen"
+              alt="JATE text logo"
             />
           </a>
-          <p className="f-proj-desc mt-5">
+          <p className="f-proj-desc-2 mt-5">
             PWA Javascript text editor that saves and stores changes for later
             reference. This application works offline through a service worker
             and is installable to your local machine.
@@ -94,10 +94,10 @@ const Challenges = () => {
             <img
               src={ecbeImg}
               className="port-img-link"
-              alt="book worm saved screen"
+              alt="list of items for sale in SQL"
             />
           </a>
-          <p className="f-proj-desc mt-5">
+          <p className="f-proj-desc-2 mt-5">
             A CLI application that mimics an e-commerce website. SQL helps
             control and maintain the database.
           </p>
@@ -111,10 +111,10 @@ const Challenges = () => {
             <img
               src={quizImg}
               className="port-img-link"
-              alt="book worm saved screen"
+              alt="Java Quiz home screen"
             />
           </a>
-          <p className="f-proj-desc mt-5">
+          <p className="f-proj-desc-2 mt-5">
             Javascript Coding Quiz that tracks your scores in local storage and
             saves high scores. Introduction to Web Api's.
           </p>
