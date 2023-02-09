@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import breweryFinderImg from "../../assets/portfolio_img/post-search.png";
 import liveWireImg from "../../assets/portfolio_img/Live_Wire_Homepage.jpg";
@@ -81,6 +82,15 @@ const Featured = () => {
             <a href="https://github.com/Vincenttoon/employee-tracker-extraordinaire">Github</a>
           </h5>
         </div>
+      </div>
+
+      <div className="more-info-cont">
+        <p className="more-info-head">
+          {" "}
+          For more projects, head to my <Link className="text-link" to="/portfolio"> Portfolio </Link> page or explore my personal <a className="text-link" href="https://github.com/Vincenttoon">
+          Github
+        </a> profile:
+        </p>
       </div>
     </div>
   );

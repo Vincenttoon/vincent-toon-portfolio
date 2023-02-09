@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 import bookwormImg from "../../assets/challenge_img/book-worm-mason.jpg";
 import oldPortImg from "../../assets/challenge_img/old-port.jpg";
 import jateImg from "../../assets/challenge_img/jate-header-img.jpg";
@@ -124,7 +126,7 @@ const Challenges = () => {
       <div className="more-info-cont">
         <h4 className="more-info-head">
           {" "}
-          For more projects, please visit my personal Github profile:
+          For more projects, head back to <Link className="text-link" to="/portfolio"> Portfolio </Link> page or explore my personal Github profile:
         </h4>
         <a href="https://github.com/Vincenttoon">
           <h5 className="more-info-link">https://github.com/Vincenttoon</h5>

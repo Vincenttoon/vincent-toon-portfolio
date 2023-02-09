@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import shopImg from "../../assets/async_img/shop.jpg";
 import rpgImg from "../../assets/async_img/jest-rpg.jpg";
@@ -107,7 +108,7 @@ const Async = () => {
       <div className="more-info-cont">
         <h4 className="more-info-head">
           {" "}
-          For more projects, please visit my personal Github profile:
+          For more projects, head back to <Link className="text-link" to="/portfolio"> Portfolio </Link> page or explore my personal Github profile:
         </h4>
         <a href="https://github.com/Vincenttoon">
           <h5 className="more-info-link">https://github.com/Vincenttoon</h5>

@@ -238,6 +238,25 @@ a nav-link:hover {
   opacity: 0.8;
 }
 
+.relevant-links-container {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.link-link:hover {
+  color: var(--third);
+}
+
+.relevant-header {
+  text-shadow: 1px 1px var(--secondary);
+  text-decoration: underline;
+  text-decoration-color: var(--fourth);
+}
+
 /* !=== END ABOUT CSS ===! */
 
 
@@ -417,6 +436,28 @@ a nav-link:hover {
 /* !=== END PORTFOLIO PAGE ===! */
 
 /* !=== START TECHNOLOGIES CSS ===! */
+
+.tech-story-cont {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+.ts-text {
+  text-shadow: 1px 1px var(--secondary);
+}
+
+.p-text-tech {
+  text-align: center;
+}
+
+.text-link {
+  color: var(--fourth);
+}
+
+.text-link:hover {
+  color: var(--third);
+}
 
 .tech-cont {
   width: 85%;
