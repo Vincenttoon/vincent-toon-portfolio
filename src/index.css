@@ -192,7 +192,7 @@ a nav-link:hover {
   display: flex;
   flex-direction: row;
   background-color: var(--bg-color);
-  max-width: 80%; 
+  width: 80%; 
 }
 
 .my-photo {
@@ -728,6 +728,10 @@ form label {
   margin-left: 0;
 }
 
+textarea {
+  height: 80px;
+}
+
 /* !=== END CONTACT CSS ===! */
 
 /* !=== START FOOTER CSS ===! */
@@ -884,6 +888,52 @@ form label {
   .tech-card {
     width: 45%;
   }
+
+  .form-container {
+    width: 95%;
+  }
+
+  .vinny-guitar {
+    height: 350px;
+  }
+
+  .email-form {
+    width: 60%;
+  }
+
+  .hero-text {
+    margin-left: 20px;
+    width: 180%;
+    font-size: 28px;
+    margin-top: 44px;
+  }
+
+  .hero-text:hover {
+    color: #872C27;
+  }
+
+  .info-name::after {
+    width: 12em;
+  }
+
+  .hero-nav ul {
+    flex-direction: row;
+    margin-top: 37px;
+    margin-left: 15px;
+  }
+
+  .right-links {
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+
+  .f-proj-title-2 {
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    height: 125px;
+  }
   
 }
 
@@ -930,6 +980,9 @@ form label {
 
   .hero-text {
     font-size: 2em;
+    width: 85%;
+    margin-right: 115px;
+    margin-top: 25px;
   }
 
   .mobile-nav-link {
@@ -961,6 +1014,30 @@ form label {
     text-shadow: none;
   }
   
+  .bio-cont {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .info-name::after {
+    width: 13em;
+  }
+
+  .info-name {
+    margin-right: 6px;
+  }
+  
+  .vincent-info-container {
+    margin: 0;
+  }
+  .info-job::after {
+    width: 13.3em;
+    margin-left: 25px;
+  }
+
+  .container {
+    width: 100%;
+  }
   
   .txt-div {
     flex-direction: column;
@@ -976,6 +1053,15 @@ form label {
     align-self: center;
     height: 150px;
     width: 300px;
+  }
+
+  .port-img-link {
+    width: 350px;
+    margin: auto;
+  }
+
+  .f-proj-desc-2 {
+    display: none;
   }
 
   .proj-info-cont-2, .proj-info-cont {
@@ -1040,12 +1126,6 @@ form label {
     width: 100%;
   }
 
-  .bio-cont {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
   .vincent-info-container {
     width: auto;
     text-align: center;
@@ -1077,6 +1157,42 @@ form label {
   
   .date-attended-4::after {
     width: 13.5em;
+  }
+
+  .ts-text {
+    display: none;
+  }
+
+  .p-text-tech {
+    margin-top: 35px;
+  }
+
+  .tech-card {
+    height: 370px;
+  }
+  
+  .language-cont {
+    margin-top: 40px;
+  }
+  
+  .form-img-container {
+    display: none;
+  }
+
+  .relevant-links-container {
+    width: 100%;
+  }
+
+  .f-proj-desc {
+    margin: 0;
+  }
+
+  .email-form {
+    width: 95%;
+  }
+
+  textarea {
+    height: 125px;
   }
   
 }

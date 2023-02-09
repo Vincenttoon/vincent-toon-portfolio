@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useMediaQuery } from "@mui/material";
 import MobileNav from "../MobileNav";
 
@@ -10,13 +10,15 @@ const Header = () => {
     // include Nav in header return
     <header className="hero">
       <div className="hero-div">
-        <h1 className="hero-text">Vincent Toon</h1>
+        <Link to="/">
+          <h1 className="hero-text">Vincent Toon</h1>
+        </Link>
       </div>
       <nav className="hero-nav">
         <ul className="nav-link">
-          <li>
+          {/* <li>
             <NavLink to="/">About</NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink to="/portfolio">Portfolio</NavLink>
           </li>

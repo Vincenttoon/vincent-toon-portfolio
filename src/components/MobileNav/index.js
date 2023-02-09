@@ -30,7 +30,6 @@ const MobileNav = () => {
         open={open}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}><NavLink to="/" className="mobile-nav-link">About</NavLink></MenuItem>
         <MenuItem onClick={handleClose}><NavLink to="/portfolio" className="mobile-nav-link">Portfolio</NavLink></MenuItem>
         <MenuItem onClick={handleClose}><NavLink to="/technologies" className="mobile-nav-link">Technologies</NavLink></MenuItem>
         <MenuItem onClick={handleClose}><NavLink to="/resume" className="mobile-nav-link">Resume</NavLink></MenuItem>
