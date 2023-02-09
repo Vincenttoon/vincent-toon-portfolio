@@ -149,6 +149,11 @@ li {
   text-shadow: 1px 1px var(--black);
 }
 
+.right-links:hover {
+  color: var(--fourth);
+  text-shadow: 1px 1px var(--primary);
+}
+
 a nav-link:hover {
   color: var(--third);
   text-shadow: 1px 1px var(--white);
@@ -204,6 +209,7 @@ a nav-link:hover {
   max-height: 100%;
   object-fit: cover;
   object-position: center;
+  box-shadow: 1px 1px var(--black);
 }
 
 .vincent-info-container {
@@ -486,6 +492,7 @@ a nav-link:hover {
   flex-direction: column;
   background-color: var(--primary);
   border-radius: 25px;
+  box-shadow: 1px 1px var(--black);
 }
 
 .tech-head {
@@ -730,6 +737,7 @@ form label {
   width: 100%;
   margin: 20px;
   margin-left: 0;
+  box-shadow: 1px 1px var(--black);
 }
 
 textarea {
