@@ -9,6 +9,8 @@ import Portfolio from './pages/Portfolio';
 import Technologies from "./pages/Technologies";
 import Resume from "./pages/Resume";
 import Contact from './pages/Contact';
+import Featured from './components/Featured_Projects';
+import Personal from "./components/Personal_Projects";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
             <Route path="/technologies" element={<Technologies />}/>
             <Route path="/resume" element={<Resume />}/>
             <Route path="/contact" element={<Contact />}/>
+            <Route path="/featured" element={<Featured />}/>
+            <Route path="/personal-projects" element={<Personal/>}/>
           </Routes>
         </div>
         <FooterComponent />

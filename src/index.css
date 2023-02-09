@@ -240,6 +240,7 @@ a nav-link:hover {
 
 /* !=== END ABOUT CSS ===! */
 
+
 /* !=== START FEATURED CSS ===! */
 
 .f-cont {
@@ -348,15 +349,53 @@ a nav-link:hover {
 
 /* !=== END FEATURED CSS ===! */
 
-/* !=== START PORTFOLIO PAGES CSS ===! */
+/* !=== START PORTFOLIO PAGE ===! */
+
+.main-port-container {
+  margin: 20px auto;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.work-style-head {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: var(--fourth);
+  text-shadow: 2px 2px var(--secondary);
+}
 
 .port-img {
   height: 250px;
   width: 450px;
   border-radius: 25px;
+  box-shadow: 1px 1px var(--black);
 }
 
-/* !=== END PORTFOLIO PAGES CSS ===! */
+.port-img-link {
+  height: 250px;
+  width: 450px;
+  border-radius: 25px;
+  box-shadow: 1px 1px var(--black);
+}
+
+.port-img-link:hover {
+  -webkit-filter: blur(3px);
+  filter: blur(3px)
+}
+
+.individ-container {
+  width: 85%;
+  margin: 20px auto
+}
+
+.info-for-link {
+  text-align: center;
+  margin: 20px;
+}
+
+/* !=== END PORTFOLIO PAGE ===! */
 
 /* !=== START TECHNOLOGIES CSS ===! */
 

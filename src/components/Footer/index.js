@@ -3,9 +3,6 @@ import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { Layout } from 'antd';
-
-const { Footer } = Layout;
 
 function FooterComponent() {
 
