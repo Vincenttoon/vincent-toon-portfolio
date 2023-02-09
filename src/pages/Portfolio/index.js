@@ -14,7 +14,7 @@ const Portfolio = () => {
                 <h2 className="work-style-head">Featured Projects</h2>
                 <Link to='/featured' className="photo-link">
                     <img src={crownImg}
-                    className='port-img'
+                    className='port-img-link'
                     alt="crown"
                     />
                 </Link>
@@ -24,7 +24,7 @@ const Portfolio = () => {
                 <h2 className="work-style-head">Personal Projects</h2>
                 <Link to='/personal-projects' className="photo-link">
                     <img src={workingImg}
-                    className='port-img'
+                    className='port-img-link'
                     alt="working on computer"
                     />
                 </Link>
@@ -34,7 +34,7 @@ const Portfolio = () => {
                 <h2 className="work-style-head">Bootcamp Challenges</h2>
                 <Link to='/challenges' className="photo-link">
                     <img src={climbingImg}
-                    className='port-img'
+                    className='port-img-link'
                     alt="cartoon climbing"
                     />
                 </Link>
@@ -44,7 +44,7 @@ const Portfolio = () => {
                 <h2 className="work-style-head">Async Learning</h2>
                 <Link to='/async' className="photo-link">
                     <img src={studyingImg}
-                    className='port-img'
+                    className='port-img-link'
                     alt="person studying"
                     />
                 </Link>

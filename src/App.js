@@ -11,6 +11,7 @@ import Resume from "./pages/Resume";
 import Contact from './pages/Contact';
 import Featured from './components/Featured_Projects';
 import Personal from "./components/Personal_Projects";
+import Challenges from './components/WashU_Projects';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />}/>
             <Route path="/featured" element={<Featured />}/>
             <Route path="/personal-projects" element={<Personal/>}/>
+            <Route path="/challenges" element={<Challenges/>}/>
           </Routes>
         </div>
         <FooterComponent />

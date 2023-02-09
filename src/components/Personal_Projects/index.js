@@ -23,6 +23,16 @@ const Personal = () => {
           </p>
         </div>
       </div>
+
+      <div className="more-info-cont">
+        <h4 className="more-info-head">
+          {" "}
+          For more projects, please visit my personal Github profile:
+        </h4>
+        <a href="https://github.com/Vincenttoon">
+          <h5 className="more-info-link">https://github.com/Vincenttoon</h5>
+        </a>
+      </div>
     </div>
   );
 };

@@ -395,6 +395,25 @@ a nav-link:hover {
   margin: 20px;
 }
 
+.more-info-cont {
+  width: 85%;
+  margin: auto;
+}
+
+.more-info-head {
+  text-align: center;
+  text-shadow: 1px 1px var(--secondary);
+}
+
+.more-info-link {
+  text-align: center;
+  color: var(--third);
+  text-decoration: underline;
+}
+
+.more-info-link:hover {
+  color: var(--fourth);
+}
 /* !=== END PORTFOLIO PAGE ===! */
 
 /* !=== START TECHNOLOGIES CSS ===! */
