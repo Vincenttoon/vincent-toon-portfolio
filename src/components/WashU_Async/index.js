@@ -26,7 +26,7 @@ const Async = () => {
           <a href="https://github.com/Vincenttoon/shop-shop">
             <img
               src={shopImg}
-              className="port-img-link"
+              className="port-img"
               alt="cartoon storefront"
             />
           </a>
@@ -46,7 +46,7 @@ const Async = () => {
           <a href="https://github.com/Vincenttoon/jest-another-RPG">
             <img
               src={rpgImg}
-              className="port-img-link"
+              className="port-img"
               alt="cartoon warrior"
             />
           </a>
@@ -62,7 +62,7 @@ const Async = () => {
           <a href="https://github.com/Vincenttoon/pizza-hunt">
             <img
               src={pizzaImg}
-              className="port-img-link"
+              className="port-img"
               alt="happy pizza"
             />
           </a>
@@ -80,7 +80,7 @@ const Async = () => {
           <a href="https://github.com/Vincenttoon/u-develop-it">
             <img
               src={voteImg}
-              className="port-img-link"
+              className="port-img"
               alt="hand casting a vote"
             />
           </a>
@@ -98,7 +98,7 @@ const Async = () => {
           <a href="https://github.com/Vincenttoon/zoo-keeper-of-the-crypt">
             <img
               src={zooImg}
-              className="port-img-link"
+              className="port-img"
               alt="zoo keeper logo"
             />
           </a>

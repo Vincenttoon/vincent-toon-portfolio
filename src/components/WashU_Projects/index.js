@@ -23,7 +23,7 @@ const Challenges = () => {
           <a href="https://github.com/Vincenttoon/read-for-me">
             <img
               src={readmeImg}
-              className="port-img-link"
+              className="port-img"
               alt="output from readme generator"
             />
           </a>
@@ -41,7 +41,7 @@ const Challenges = () => {
           <a href="https://github.com/Vincenttoon/book-worm">
             <img
               src={bookwormImg}
-              className="port-img-link"
+              className="port-img"
               alt="book worm saved screen"
             />
           </a>
@@ -59,7 +59,7 @@ const Challenges = () => {
           <a href="https://github.com/Vincenttoon/Toon-React-Portfolio">
             <img
               src={oldPortImg}
-              className="port-img-link"
+              className="port-img"
               alt="old portfolio landing page"
             />
           </a>
@@ -77,7 +77,7 @@ const Challenges = () => {
           <a href="https://github.com/Vincenttoon/textfas-burrito-two">
             <img
               src={jateImg}
-              className="port-img-link"
+              className="port-img"
               alt="JATE text logo"
             />
           </a>
@@ -95,7 +95,7 @@ const Challenges = () => {
           <a href="https://github.com/Vincenttoon/ecommerce-back-end">
             <img
               src={ecbeImg}
-              className="port-img-link"
+              className="port-img"
               alt="list of items for sale in SQL"
             />
           </a>
@@ -112,7 +112,7 @@ const Challenges = () => {
           <a href="https://github.com/Vincenttoon/read-for-me">
             <img
               src={quizImg}
-              className="port-img-link"
+              className="port-img"
               alt="Java Quiz home screen"
             />
           </a>

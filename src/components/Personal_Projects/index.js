@@ -14,7 +14,7 @@ const Personal = () => {
         <div className="justify-space-around proj-info-cont-2">
           <img
             src={weatherImg}
-            className="port-img-link"
+            className="port-img mb-img-adj"
             alt="Sun and cloud"
           />
           <p className="f-proj-desc mt-5">
