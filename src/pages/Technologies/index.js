@@ -29,7 +29,7 @@ const Technologies = () => {
       <div className="tech-cont">
         <div className="card-cont">
           <div className="tech-card">
-            <h4 className="tech-head">Primary Practices:</h4>
+            <h4 className="tech-head">MERN Stack:</h4>
             <div className="language-cont">
               <ul className="ul-class">
                 <li className="tech-logo">
@@ -53,13 +53,13 @@ const Technologies = () => {
                 <li className="tech-logo">
                   <BsBook fontSize={"3em"} />
                 </li>
+                <li>Python</li>
                 <li>SQL</li>
                 <li>NoSQL</li>
                 <li>Sequelize</li>
                 <li>Webpack</li>
-                <li>Insomnia</li>
                 <li>NPM</li>
-                <li>Bootstrap</li>
+                <li>Inquirer</li>
               </ul>
             </div>
           </div>
@@ -77,6 +77,8 @@ const Technologies = () => {
                 <li>MVC</li>
                 <li>PWA's</li>
                 <li>Lighthouse</li>
+                <li>Insomnia</li>
+                <li>Workbench</li>
               </ul>
             </div>
           </div>
@@ -88,11 +90,11 @@ const Technologies = () => {
                 <li className="tech-logo">
                   <FaPaintBrush fontSize={"3em"} />
                 </li>
+                <li>Tailwind</li>
+                <li>Sass</li>
                 <li>Bootstrap</li>
                 <li>Bulma</li>
                 <li>AntD</li>
-                <li>Tailwind</li>
-                <li>Sass</li>
               </ul>
             </div>
           </div>
